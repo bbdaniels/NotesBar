@@ -5,11 +5,11 @@
     <key>LSUIElement</key>
     <true/>
     <key>CFBundleIdentifier</key>
-    <string>com.yourusername.NotesBar</string>
+    <string>com.yourusername.obsidian-menubar</string>
     <key>CFBundleName</key>
-    <string>NotesBar</string>
+    <string>obsidian-menubar</string>
     <key>CFBundleDisplayName</key>
-    <string>NotesBar</string>
+    <string>obsidian-menubar</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -25,4 +25,4 @@
     <key>NSAppleEventsUsageDescription</key>
     <string>Required to open notes in Obsidian</string>
 </dict>
-</plist> 
+</plist>

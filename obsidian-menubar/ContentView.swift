@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  ObsidianQuickNote
+//  obsidian-menubar
 //
 //  Created by Aman Raj on 18/5/25.
 //
@@ -471,7 +471,7 @@ struct AboutView: View {
                 .font(.system(size: 60))
                 .foregroundColor(.blue)
             
-            Text("Obsidian Quick Note")
+            Text("obsidian-menubar")
                 .font(.title)
             
             Text("Version 0.3")

@@ -11,13 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31E510002DD9530E0075559B /* NotesBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E510002DD9530E0075559B /* obsidian-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "obsidian-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		31E510022DD9530E0075559B /* NotesBar */ = {
+		31E510022DD9530E0075559B /* obsidian-menubar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NotesBar;
+			path = "obsidian-menubar";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +37,7 @@
 		31E50FF72DD9530E0075559B = {
 			isa = PBXGroup;
 			children = (
-				31E510022DD9530E0075559B /* NotesBar */,
+				31E510022DD9530E0075559B /* obsidian-menubar */,
 				31E510012DD9530E0075559B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		31E510012DD9530E0075559B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31E510002DD9530E0075559B /* NotesBar.app */,
+				31E510002DD9530E0075559B /* obsidian-menubar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,9 +53,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31E50FFF2DD9530E0075559B /* NotesBar */ = {
+		31E50FFF2DD9530E0075559B /* obsidian-menubar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31E5100C2DD9530F0075559B /* Build configuration list for PBXNativeTarget "NotesBar" */;
+			buildConfigurationList = 31E5100C2DD9530F0075559B /* Build configuration list for PBXNativeTarget "obsidian-menubar" */;
 			buildPhases = (
 				31E50FFC2DD9530E0075559B /* Sources */,
 				31E50FFD2DD9530E0075559B /* Frameworks */,
@@ -66,14 +66,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				31E510022DD9530E0075559B /* NotesBar */,
+				31E510022DD9530E0075559B /* obsidian-menubar */,
 			);
-			name = NotesBar;
+			name = "obsidian-menubar";
 			packageProductDependencies = (
 				31E510402DD9DCC20075559B /* Down */,
 			);
-			productName = ObsidianQuickNote;
-			productReference = 31E510002DD9530E0075559B /* NotesBar.app */;
+			productName = "obsidian-menubar";
+			productReference = 31E510002DD9530E0075559B /* obsidian-menubar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31E50FFB2DD9530E0075559B /* Build configuration list for PBXProject "NotesBar" */;
+			buildConfigurationList = 31E50FFB2DD9530E0075559B /* Build configuration list for PBXProject "obsidian-menubar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31E50FFF2DD9530E0075559B /* NotesBar */,
+				31E50FFF2DD9530E0075559B /* obsidian-menubar */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NotesBar/NotesBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "obsidian-menubar/obsidian-menubar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -269,7 +269,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.senpai.NotesBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.senpai.obsidian-menubar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -282,7 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NotesBar/NotesBar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "obsidian-menubar/obsidian-menubar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -294,7 +294,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.senpai.NotesBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.senpai.obsidian-menubar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31E50FFB2DD9530E0075559B /* Build configuration list for PBXProject "NotesBar" */ = {
+		31E50FFB2DD9530E0075559B /* Build configuration list for PBXProject "obsidian-menubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31E5100A2DD9530F0075559B /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31E5100C2DD9530F0075559B /* Build configuration list for PBXNativeTarget "NotesBar" */ = {
+		31E5100C2DD9530F0075559B /* Build configuration list for PBXNativeTarget "obsidian-menubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31E5100D2DD9530F0075559B /* Debug */,

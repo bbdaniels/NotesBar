@@ -1,6 +1,6 @@
 //
-//  NoteBarApp.swift
-//  NoteBar
+//  NotesBarApp.swift
+//  obsidian-menubar
 //
 //  Created by Aman Raj on 18/5/25.
 //

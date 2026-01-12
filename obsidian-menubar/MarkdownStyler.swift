@@ -1,6 +1,6 @@
 //
 //  MarkdownStyler.swift
-//  NotesBar
+//  obsidian-menubar
 //
 //  Shared markdown styling utility
 //

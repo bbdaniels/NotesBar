@@ -1,8 +1,8 @@
-# NotesBar
+# obsidian-menubar
 
 **Quick access to your Obsidian notes, right from your macOS menu bar.**
 
-NotesBar is a modern macOS menu bar application designed for Obsidian users who want lightning-fast access to their knowledge base without switching contexts.
+obsidian-menubar is a modern macOS menu bar application designed for Obsidian users who want lightning-fast access to their knowledge base without switching contexts.
 
 ---
 
@@ -21,9 +21,9 @@ NotesBar is a modern macOS menu bar application designed for Obsidian users who 
 
 ---
 
-## 💡 Why Use NotesBar?
+## 💡 Why Use obsidian-menubar?
 
-Are you tired of interrupting your workflow to open Obsidian just to quickly reference a note? NotesBar solves this by putting your most important information just a click away in your menu bar. It's perfect for:
+Are you tired of interrupting your workflow to open Obsidian just to quickly reference a note? obsidian-menubar solves this by putting your most important information just a click away in your menu bar. It's perfect for:
 
 - Quickly jotting down a thought in a daily note.
 - Finding that specific code snippet or command.
@@ -41,16 +41,16 @@ Are you tired of interrupting your workflow to open Obsidian just to quickly ref
 
 ### Steps
 
-1. **Download:** Get the latest `.dmg` or `.zip` file from the [Releases page](https://github.com/bbdaniels/NotesBar/releases).
-2. **Install:** Open the downloaded file and drag `NotesBar.app` into your `Applications` folder.
-3. **Launch:** Open NotesBar from your Applications folder or Launchpad.
-4. **Select Vault:** Click the NotesBar icon that appears in your menu bar. The first time, you will be prompted to select your Obsidian vault folder. You can change or add vaults later via the app's settings.
+1. **Download:** Get the latest `.dmg` or `.zip` file from the [Releases page](https://github.com/bbdaniels/obsidian-menubar/releases).
+2. **Install:** Open the downloaded file and drag `obsidian-menubar.app` into your `Applications` folder.
+3. **Launch:** Open obsidian-menubar from your Applications folder or Launchpad.
+4. **Select Vault:** Click the obsidian-menubar icon that appears in your menu bar. The first time, you will be prompted to select your Obsidian vault folder. You can change or add vaults later via the app's settings.
 
 ---
 
 ## 🚀 Usage
 
-1. **Access:** Click the NotesBar icon in your menu bar.
+1. **Access:** Click the obsidian-menubar icon in your menu bar.
 2. **Navigate:** Use the file browser or the search bar at the top.
 3. **Search:** Type keywords into the search bar to filter notes instantly.
 4. **Preview:** Hover over a note to see a markdown preview of its content.
@@ -71,15 +71,15 @@ Interested in contributing or building from source?
 
 1. **Clone:** Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/bbdaniels/NotesBar.git
+    git clone https://github.com/bbdaniels/obsidian-menubar.git
     ```
 2. **Navigate:** Change directory into the cloned repository:
     ```bash
-    cd NotesBar
+    cd obsidian-menubar
     ```
 3. **Open Project:** Open the project in Xcode:
     ```bash
-    open NotesBar.xcodeproj
+    open obsidian-menubar.xcodeproj
     ```
 4. **Build & Run:** Build and run the project using `⌘R` in Xcode.
 
@@ -89,7 +89,7 @@ Interested in contributing or building from source?
 
 Contributions are highly welcome! Whether it's submitting bug reports, suggesting new features, or opening pull requests, your help is appreciated.
 
-1. [Fork the repository](https://github.com/bbdaniels/NotesBar/fork).
+1. [Fork the repository](https://github.com/bbdaniels/obsidian-menubar/fork).
 2. Create your feature branch (`git checkout -b feature/amazing-feature`).
 3. Commit your changes (`git commit -m 'Add some amazing feature'`).
 4. Push to the branch (`git push origin feature/amazing-feature`).

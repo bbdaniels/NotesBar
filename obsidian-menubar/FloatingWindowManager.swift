@@ -1,6 +1,6 @@
 //
 //  FloatingWindowManager.swift
-//  NotesBar
+//  obsidian-menubar
 //
 //  Manages persistent floating windows for notes
 //
