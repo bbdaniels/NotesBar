@@ -452,13 +452,8 @@ struct FileRow: View {
                         }
                     }
                 }
+            }
         }
-    }
-    
-    private func openNote(_ note: NoteFile) {
-        let vaultPath = UserDefaults.standard.string(forKey: "vaultPath") ?? ""
-        let vaultName = (vaultPath as NSString).lastPathComponent
-        noteViewModel.openNote(note, vaultName: vaultName)
     }
 }
 
