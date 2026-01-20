@@ -7,9 +7,9 @@
     <key>CFBundleIdentifier</key>
     <string>com.yourusername.obsidian-menubar</string>
     <key>CFBundleName</key>
-    <string>obsidian-menubar</string>
+    <string>Obsidian Menubar</string>
     <key>CFBundleDisplayName</key>
-    <string>obsidian-menubar</string>
+    <string>Obsidian Menubar</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

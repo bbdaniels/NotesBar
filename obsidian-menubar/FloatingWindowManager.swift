@@ -103,6 +103,7 @@ struct FloatingNoteView: View {
     @State private var lastSavedContent: String = ""
     @State private var autoSaveTask: Task<Void, Never>?
     @State private var isEditing: Bool = true
+    @State private var isSearchVisible: Bool = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -135,6 +136,15 @@ struct FloatingNoteView: View {
 
                 Spacer()
 
+                // Search button (only in preview mode)
+                if !isEditing {
+                    Button(action: { isSearchVisible.toggle() }) {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    .buttonStyle(.borderless)
+                    .help("Find in document (⌘F)")
+                }
+
                 Button(action: { openInObsidian() }) {
                     Image(systemName: "arrow.up.forward.app")
                 }
@@ -158,10 +168,15 @@ struct FloatingNoteView: View {
                 .font(.system(size: 14, design: .monospaced))
                 .padding(12)
             } else {
-                MarkdownWebView(content: content, filePath: file.path) { newContent in
-                    content = newContent
-                    lastSavedContent = newContent
-                }
+                SearchableMarkdownWebView(
+                    content: content,
+                    filePath: file.path,
+                    onContentChanged: { newContent in
+                        content = newContent
+                        lastSavedContent = newContent
+                    },
+                    isSearchVisible: $isSearchVisible
+                )
             }
 
             if let error = saveError {
@@ -182,6 +197,32 @@ struct FloatingNoteView: View {
         .onDisappear {
             autoSaveTask?.cancel()
         }
+        .onChange(of: isEditing) { _, editing in
+            // Hide search when switching to edit mode
+            if editing {
+                isSearchVisible = false
+            }
+        }
+        // Keyboard shortcut for Cmd+F
+        .background(
+            Button("") {
+                if !isEditing {
+                    isSearchVisible = true
+                }
+            }
+            .keyboardShortcut("f", modifiers: .command)
+            .opacity(0)
+        )
+        // Escape to close search
+        .background(
+            Button("") {
+                if isSearchVisible {
+                    isSearchVisible = false
+                }
+            }
+            .keyboardShortcut(.escape, modifiers: [])
+            .opacity(0)
+        )
     }
 
     private func loadContent() {
